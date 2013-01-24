@@ -3,7 +3,7 @@ Here are the functions you can use in Python.
 To import the module:
 `import spi`
 
-To initialize the SPI with default parameters (8 bits, 500MHz):
+To initialize the SPI with default parameters (8 bits, 500KHz):
 `spi.initialize()`
 
 To initialize the SPI with special parameters:
