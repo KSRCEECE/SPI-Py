@@ -7,7 +7,7 @@ To initialize the SPI with default parameters (8 bits, 500KHz):
 `spi.initialize()`
 
 To initialize the SPI with special parameters:
-`spi.initialize(mode, bitsPerMessage, speed, delay)`
+`spi.initialize(mode, bytesPerMessage, speed, delay)`
 
 To transfer:
 `spi.transfer((int,int,int,int....))`
